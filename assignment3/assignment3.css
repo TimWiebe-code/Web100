@@ -10,6 +10,8 @@ Date: September 30, 2025
 #f771c3 = pink
 #08eff7 = blue
 */
+/* CSS reset */
+/*was a little confused on the css reset*/
 html, head, title, body, img, h1, h2, p, a, b, c {
     margin: 0;
     padding: 0;
@@ -20,10 +22,19 @@ html, head, title, body, img, h1, h2, p, a, b, c {
 body {
     background-color: #9b9b9b; /* grey */
 }
+em{
+    font-size : 20px;
+    color: black;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
 img{
     border: 4px solid black;
     display: block;
     float : none;
+    position : relative;
 }
 h1 {
     font-style : bold;
@@ -45,12 +56,15 @@ h2 c {
 h2 ::before {
     content: ">> ";
 }
-a {
+b {
     color: #fbff00; /* yellow */
-}
-b{
-    color: #f771c3; /* pink */
+    font-style: bold;
 }
 c{
+    color: #f771c3; /* pink */
+    font-style: bold;
+}
+d{
     color: #08eff7; /* blue */
+    font-style: bold;
 }
