@@ -18,17 +18,20 @@ Date: September 30, 2025
     font: inherit;
     vertical-align: baseline;
 }
-h2:nth-child(4) {
+section h2 a {
     color: #fbff00; /* yellow */
     text-align: center;
+    font-size: 30px;
 }
-h2:nth-child(8) {
+section h2 b {
     color: #f771c3; /* pink */
+    font-size: 30px;
     text-align: center;
 }
-h2:nth-child(12) {
+section h2 c {
     color: #08eff7; /* blue */
     text-align: center;
+    font-size: 30px;
 }
 body {
     background-color: #9b9b9b; /* grey */
