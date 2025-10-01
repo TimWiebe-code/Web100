@@ -20,6 +20,11 @@ html, head, title, body, img, h1, h2, p, a, b, c {
 body {
     background-color: #9b9b9b; /* grey */
 }
+img{
+    border: 4px solid black;
+    display: block;
+    float : none;
+}
 h1 {
     font-style : bold;
     font-size: 50px;
