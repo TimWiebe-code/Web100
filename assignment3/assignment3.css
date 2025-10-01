@@ -10,35 +10,28 @@ Date: September 30, 2025
 #08eff7 = blue
 #F1C40F = yellow
 */
-*, *::before, *::after {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-section h2 a {
-    color: #fbff00; /* yellow */
-    text-align: center;
-    font-size: 30px;
-}
-section h2 b {
-    color: #f771c3; /* pink */
-    font-size: 30px;
-    text-align: center;
-}
-section h2 c {
-    color: #08eff7; /* blue */
-    text-align: center;
-    font-size: 30px;
-}
+
 body {
     background-color: #9b9b9b; /* grey */
+}
+h2 a {
+    color: #fbff00; /* yellow */
+    font-size: 30px;
+}
+h2 b {
+    color: #f771c3; /* pink */
+    font-size: 30px;
+}
+h2 c {
+    color: #08eff7; /* blue */
+    font-size: 30px;
 }
 a {
     color: #fbff00; /* yellow */
 }
 b{
     color: #f771c3; /* pink */
+}
+c{
+    color: #08eff7; /* blue */
 }
