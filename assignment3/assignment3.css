@@ -14,6 +14,11 @@ Date: September 30, 2025
 body {
     background-color: #9b9b9b; /* grey */
 }
+h1 {
+    font-style : bold;
+    font-size: 50px;
+    text-align: center;
+}  
 h2 a {
     color: #fbff00; /* yellow */
     font-size: 30px;
@@ -25,6 +30,9 @@ h2 b {
 h2 c {
     color: #08eff7; /* blue */
     font-size: 30px;
+}
+h2 ::before {
+    content: ">> ";
 }
 a {
     color: #fbff00; /* yellow */
