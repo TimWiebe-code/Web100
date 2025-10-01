@@ -1,0 +1,41 @@
+/*
+Assignment3
+Author: Tim Wiebe
+Student Number: 0772335
+Date: September 30, 2025
+*/
+/*colour guide:
+#fbff00 = yellow
+#33FF57 = green
+#08eff7 = blue
+#F1C40F = yellow
+*/
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+h2:nth-child(4) {
+    color: #fbff00; /* yellow */
+    text-align: center;
+}
+h2:nth-child(8) {
+    color: #f771c3; /* pink */
+    text-align: center;
+}
+h2:nth-child(12) {
+    color: #08eff7; /* blue */
+    text-align: center;
+}
+body {
+    background-color: #9b9b9b; /* grey */
+}
+a {
+    color: #fbff00; /* yellow */
+}
+b{
+    color: #f771c3; /* pink */
+}
