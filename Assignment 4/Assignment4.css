@@ -30,7 +30,7 @@ main {
     flex-wrap: wrap;
    grid-template-columns: auto auto auto;
     gap: 1em;
-    background: #333333;
+    background: #000000;
 }
 
 img {
@@ -78,4 +78,9 @@ figcaption {
     text-align: center;
     font-style: italic;
     color: white;
+}
+figcaption p {
+    color: white;
+    font-style: italic;
+    
 }
