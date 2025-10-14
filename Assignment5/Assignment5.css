@@ -1,0 +1,24 @@
+
+/*
+Website Name: Assignment5
+Author: Tim Wiebe
+Student Number: 0772335
+Date: October 14, 2025
+*/
+/*colour guide:
+White
+#333333 = Grey
+Black
+*/
+/* CSS reset */
+h1{
+    font-style : italic;
+    text-align : center;
+}
+h2{
+    font-weight: 100;
+    line-height: normal;
+}
+em{
+    text-indent: 20px;
+}
