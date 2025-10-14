@@ -37,6 +37,11 @@ h1{
     text-align : center;
 }
 h2{
+    font-family: 'latoitalic';
+    font-style: italic;
+    text-align : center;
+}
+h3{
     font-family: 'bbh_sans_bogleregular';
     font-weight: 100;
     line-height: normal;
@@ -46,4 +51,28 @@ em{
     vertical-align: middle;
     word-spacing: 5px;
     text-indent: 20px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/* Positioning of the book*/
+.book{
+    top:0;
+    right: 0;
+    position:absolute;
+    width : 150px;
+    height : auto;
+    margin-left : 20px;
+    float : right;
+    margin-bottom : 20px;
+}
+figcaption{
+    font-family: 'bbh_sans_bogleregular';
+    font-weight: 100;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-align: center;
 }
