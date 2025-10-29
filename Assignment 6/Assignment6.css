@@ -42,6 +42,7 @@ h1, h2 {
     color: #333;
 }
 
+/* Layout of picture and captions */
 figure {
     text-align: center;
     margin-bottom: 20px;
@@ -75,7 +76,6 @@ form > div > label {
     font-weight: bold;
 }
 
-/* Fieldset styles*/
 fieldset {
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -111,7 +111,6 @@ fieldset label {
     margin-left: 5px;
 }
 
-
 button[type="submit"] {
     padding: 10px 15px;
     background-color: #007bff;
@@ -121,7 +120,8 @@ button[type="submit"] {
     font-size: 16px;
     margin-top: 10px;
 }
-/* Button styles*/
+
+/* Button styles */
 button[type="submit"]:hover {
     background-color: #0056b3;
 }
