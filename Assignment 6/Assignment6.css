@@ -6,8 +6,9 @@ Date: October 29, 2025
 */
 /*colour guide:
 White: #f4f4f4
+White: #ddd
 Grey: #333
-Blue: #0056b3
+Blue: #007bff
 rgba(0, 0, 0, 0.1): light shadow
 */
 /* CSS reset */
@@ -111,6 +112,7 @@ fieldset label {
     margin-left: 5px;
 }
 
+/* Button styles */
 button[type="submit"] {
     padding: 10px 15px;
     background-color: #007bff;
@@ -119,9 +121,4 @@ button[type="submit"] {
     border-radius: 4px;
     font-size: 16px;
     margin-top: 10px;
-}
-
-/* Button styles */
-button[type="submit"]:hover {
-    background-color: #0056b3;
 }
