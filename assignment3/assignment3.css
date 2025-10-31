@@ -1,0 +1,70 @@
+/*
+Website Name: Assignment3
+Author: Tim Wiebe
+Student Number: 0772335
+Date: September 30, 2025
+*/
+/*colour guide:
+#9b9b9b = grey
+#fbff00 = yellow
+#f771c3 = pink
+#08eff7 = blue
+*/
+/* CSS reset */
+/*was a little confused on the css reset*/
+html, head, title, body, img, h1, h2, p, a, b, c {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body {
+    background-color: #9b9b9b; /* grey */
+}
+em{
+    font-size : 20px;
+    color: black;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+img{
+    border: 4px solid black;
+    display: block;
+    float : none;
+    position : relative;
+}
+h1 {
+    font-style : bold;
+    font-size: 50px;
+    text-align: center;
+}  
+h2 a {
+    color: #fbff00; /* yellow */
+    font-size: 30px;
+}
+h2 b {
+    color: #f771c3; /* pink */
+    font-size: 30px;
+}
+h2 c {
+    color: #08eff7; /* blue */
+    font-size: 30px;
+}
+h2 ::before {
+    content: ">> ";
+}
+b {
+    color: #fbff00; /* yellow */
+    font-style: bold;
+}
+c{
+    color: #f771c3; /* pink */
+    font-style: bold;
+}
+d{
+    color: #08eff7; /* blue */
+    font-style: bold;
+}
